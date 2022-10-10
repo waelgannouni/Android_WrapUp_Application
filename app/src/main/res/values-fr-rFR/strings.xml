@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mini-Project</string>
+    <string name="MainTitle">Écran d\'accueil</string>
+    <string name="Menu">Menu</string>
+    <string name="Languages">Langages</string>
+    <string name="drawer_open">ouvrir</string>
+    <string name="drawer_close">Fermer</string>
+    <string name="Home_Title">Accueil</string>
+    <string name="Profile_Title">Profil</string>
+    <string name="MiniApps_Title">Mini-applications</string>
+    <string name="System">Verification du système</string>
+    <string name="Factoriel">Factorielle</string>
+    <string name="IMC">IMC</string>
+    <string name="TextToSpeach">du texte à parole</string>
+    <string name="Maps">Maps</string>
+    <string name="Login_Title">Connexion</string>
+    <string name="Login_Hint_Email">Saisissez votre e-mail</string>
+    <string name="Login_Hint_Password">Tapez votre mot de passe</string>
+    <string name="Login_helper">Aide à la connexion</string>
+    <string name="Login_hint"><font size="20">Conseil de connexion</font></string>
+    <string name="SignUp">S\'inscrire</string>
+    <string name="LogIn">Connexion</string>
+    <string name="Forgot">Mot de passe oublié</string>
+    <string name="MissingEmail">Veuillez saisir votre e-mail</string>
+    <string name="MissingPassword">Veuillez saisir votre mot de passe</string>
+    <string name="ShortPassword">Mot de passe court</string>
+    <string name="Signup_Title">S\'inscrire</string>
+    <string name="Signup_Hint_NickName">Tapez votre pseudo</string>
+    <string name="Signup_Hint_FirstName">Tapez votre prénom</string>
+    <string name="Signup_Hint_LastName">Tapez votre nom</string>
+    <string name="Signup_Hint_Email">Saisissez votre e-mail</string>
+    <string name="Signup_Hint_Password">Tapez votre mot de passe</string>
+    <string name="Signup_Hint_ConfirmPassword">Confirmer votre mot de passe</string>
+    <string name="Calculer">Calculer</string>
+    <string name="title_home">Écran d\'accueil</string>
+    <string name="LogOut">Se déconnecter</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="Factoriel_Hint">Indice factorielle</string>
+    <string name="Message">Cette application permet de calculer la factorielle d\'un entier saisie par l\'utilisateur</string>
+    <string name="Fact_hint">donner un nombre...</string>
+    <string name="alert_1">saisir un entier</string>
+    <string name="alert_2">saisir un entier positif</string>
+    <string name="calcul_fact">Calculer Sa Factorielle</string>
+    <string name="Tab_1">Calculer IMC</string>
+    <string name="Tab_2">HISTORIQUE</string>
+    <string name="poids_hint">entrer votre poids</string>
+    <string name="height_hint">entrer votre taille</string>
+    <string name="Poids">poids</string>
+    <string name="Height">Longeur</string>
+</resources>

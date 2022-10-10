@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LOG_SIGN.Signup">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_signup"
+        android:layout_width="413dp"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/NickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_Hint_NickName"
+        app:endIconMode="clear_text"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/colorSecondaryDark"
+        app:hintTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NickNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_Hint_FirstName"
+        app:endIconMode="clear_text"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/colorSecondaryDark"
+        app:hintTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/FirstNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_Hint_LastName"
+        app:endIconMode="clear_text"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/colorSecondaryDark"
+        app:hintTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/LastNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_Hint_Email"
+        app:endIconMode="clear_text"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/colorSecondaryDark"
+        app:hintTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EmailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_Hint_Password"
+        app:endIconMode="password_toggle"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/colorSecondaryDark"
+        app:hintTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Signup_Hint_ConfirmPassword"
+        app:endIconMode="password_toggle"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/colorSecondaryDark"
+        app:hintTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ConfirmPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Material design color-->
+    <color name="colorPrimary">#d50000</color>
+    <color name="colorPrimaryDark">#9b0000</color>
+    <color name="colorPrimaryLight">#ff5131</color>
+
+    <color name="colorSecondary">#c51162</color>
+    <color name="colorSecondaryDark">#8e0038</color>
+    <color name="colorSecondaryLight">#fd558f</color>
+
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorSecondary">#454545</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c32500</color>
+
+
+</resources>

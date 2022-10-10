@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Fragments.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="550dp"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
+        android:scaleType="fitCenter"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@drawable/ic_action_profile" />
+
+    <TextView
+        android:id="@+id/Profile_Nickname"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="454dp"
+        android:text="aaaaa"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/Profile_LastName"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="319dp"
+        android:text="aaaaa"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/Profile_Email"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="252dp"
+        android:text="aaaaa"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/Profile_FirstName"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="383dp"
+        android:text="aaaaa"
+        android:textSize="@dimen/text_size" />
+
+</RelativeLayout>

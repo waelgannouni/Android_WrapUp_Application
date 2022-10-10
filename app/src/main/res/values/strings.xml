@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">Mini-Project</string>
+    <string name="MainTitle">Home Screen</string>
+    <string name="Menu">Menu</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="Home_Title">Home</string>
+    <string name="Profile_Title">Profile</string>
+    <string name="MiniApps_Title">Mini Apps</string>
+    <string name="System">System Check</string>
+    <string name="Factoriel">Factoriel</string>
+    <string name="IMC">IMC</string>
+    <string name="TextToSpeach">Text To Speech</string>
+    <string name="Maps">Maps</string>
+    <!--LOGIN-->
+    <string name="Login_Title">Log In</string>
+    <string name="Login_Hint_Email">Type in your Email</string>
+    <string name="Login_Hint_Password">Type in your Password</string>
+    <string name="Login_helper">Login helper</string>
+    <string name="Login_hint"><font size="20">Login hint</font></string>
+    <string name="SignUp">Sign Up</string>
+    <string name="LogIn">Log In</string>
+    <string name="Forgot">Forgot Password</string>
+    <string name="MissingEmail">Please type in your Email</string>
+    <string name="MissingPassword">Please type in your Password</string>
+    <string name="ShortPassword">Short Password</string>
+    <!--Sign Up-->
+    <string name="Signup_Title">Sign Up</string>
+    <string name="Signup_Hint_NickName">Type in your NickName</string>
+    <string name="Signup_Hint_FirstName">Type in your FirstName</string>
+    <string name="Signup_Hint_LastName">Type in your LastName</string>
+    <string name="Signup_Hint_Email">Type in your Email</string>
+    <string name="Signup_Hint_Password">Type in your Password</string>
+    <string name="Signup_Hint_ConfirmPassword">Confirm your Password</string>
+    <!--CalculFactoriel-->
+    <string name="Factoriel_Hint">Factoriel Hint</string>
+    <string name="Message">This application allows to calculate the factorial of an integer entered by the user</string>
+    <string name="Fact_hint">give a number ...</string>
+    <string name="alert_1">enter an integer</string>
+    <string name="alert_2">enter a positive integer</string>
+    <string name="calcul_fact">Calculate It\'s Factorial</string>
+    <string name="title_home">Home Screen</string>
+    <string name="LogOut">Log Out</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="Calculer">Calculate</string>
+    <!--imc-->
+    <string name="Tab_1">Calculate IMC</string>
+    <string name="Tab_2">HISTORY</string>
+    <string name="poids_hint">enter your weight</string>
+    <string name="height_hint">enter your height</string>
+    <string name="Poids">weight</string>
+    <string name="Height">height</string>
+    <string name="Languages">Language</string>
+</resources>

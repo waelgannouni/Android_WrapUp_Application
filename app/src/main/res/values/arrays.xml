@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_drawer_labels">
+        <item name="Home">Home</item>
+        <item name="Profile">Profile</item>
+        <item name="System">System Check</item>
+        <item name="Mini-Apps">Mini-Apps</item>
+    </string-array>
+</resources>

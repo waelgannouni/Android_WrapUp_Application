@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTV"
+        android:textSize="@dimen/text_size"/>
+
+    <TextView
+        android:id="@+id/imcTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"/>
+
+    <TextView
+        android:id="@+id/imcStatusTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imcTV"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/timeTV"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@null"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>
